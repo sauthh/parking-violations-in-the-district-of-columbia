@@ -116,13 +116,26 @@ Days of the Week w/ Location
 ## Data Visualization: Top 3 Most Ticketed Streets
 
 * #1 - 300 Block C ST NW North Side <br/>
-![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure14.png)
+![300 Block C ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure14.png)
 
 * #2 - 1300 Block G ST NW North Side <br/>
-![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure15.png)
+![1300 Block G ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure15.png)
 
-* # 3 - 1300 Block K ST NW North Side <br/>
-![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure16.png)
+* #3 - 1300 Block K ST NW North Side <br/>
+![1300 Block K ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure16.png)
 
-## 
-![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure17.png)
+## Data Visualization: Top 3 Most Ticketed Streets on Map
+
+![Top 3 Most Ticketed Streets on Map](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/4090bfea4b413c7f6148ed7831e8691b63a726db/Figures/figure17.png)
+
+## Conclusion
+
+* Our predictions were mostly false
+* We predicted weekends would have the most violations
+  * Tuesdays and Wednesdays had the most violations
+* We predicted most violations would occur near the capital
+  * This held true
+* We predicted that most violations would be under “No Parking”
+  * Most parking violations were due to expired meter parking
+* We can recommend additional parking locations, but emphasis on individuals paying for existing parking should be primary focus to reduce parking violations
+  * This can be concluded from our observations from violation types and what days the violations occur
