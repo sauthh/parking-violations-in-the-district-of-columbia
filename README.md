@@ -139,3 +139,7 @@ Days of the Week w/ Location
   * Most parking violations were due to expired meter parking
 * We can recommend additional parking locations, but emphasis on individuals paying for existing parking should be primary focus to reduce parking violations
   * This can be concluded from our observations from violation types and what days the violations occur
+
+## Reference
+
+https://www.kaggle.com/datasets/arcgisopendata/dc-parking-violations
