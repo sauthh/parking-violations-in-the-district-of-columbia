@@ -1,4 +1,4 @@
-#Parking Violations In The District of Columbia
+# Parking Violations In The District of Columbia
 
 This project was done in collaboration with two other classmates for a class. 
 
@@ -23,6 +23,8 @@ This project was done in collaboration with two other classmates for a class.
   * No Authors (The dataset was shared by user DCGISopendata)
 * File formatting was bare bones
 * Unknown License
+
+![Kaggle Score](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure1.png)
 
 ## Dataset (132,850 rows)
 
@@ -55,7 +57,7 @@ This project was done in collaboration with two other classmates for a class.
 ## Algorithm(s) Used
 
 * SUCCESSFUL:
-  * K clustering (using 4 clusters):
+  * K-Clustering (using 4 clusters):
   * J48 Decision Tree
 * UNSUCCESSFUL:
   * Apriori Association
@@ -63,4 +65,64 @@ This project was done in collaboration with two other classmates for a class.
   * ZeroR
   * OneR
 
+## K-Clustering Results
+
+![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure2.png)
+![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure3.png)
+
+Days of the Week w/ Location
+![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure5.png)
+
+## J-48 Result
+
+![J-48 Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure4.png)
+
+## Issues Encountered
+
+* The Weka application kept generating heap errors, so some of the algorithms we wanted to use were unusable.
+* Some of the Algorithms we tried (ZeroR, OneR) either kept generating 100% correctly classified results or a subpar (<50%) correctly classified results.
+* The dataset we used could not utilize Apriori association, so we weren't able to use an association algorithm.
+
+## Data Visualization: Types of Violations
+
+![Types of Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure6.png)
+
+## Data Visualization: Days with the Most Parking Violations
+
+![Days with the Most Parking Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure7.png)
+
+## Data Visualization: Weekends w/ Locations
+
+* Wednesday <br/>
+![Wednesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure8.png)
+
+* Tuesday <br/>
+![Tuesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure9.png)
+
+* Thursday <br/>
+![Thursday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure10.png)
+
+* Saturday <br/>
+![Saturday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure11.png)
+
+* Sunday <br/>
+![Sunday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure12.png)
+
+
+## Data Visualization: Locations with the Most Violations
+
+![Locations with the Most Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure13.png)
+
+## Data Visualization: Top 3 Most Ticketed Streets
+
+* #1 - 300 Block C ST NW North Side <br/>
+![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure14.png)
+
+* #2 - 1300 Block G ST NW North Side <br/>
+![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure15.png)
+
+* # 3 - 1300 Block K ST NW North Side <br/>
+![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure16.png)
+
 ## 
+![](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure17.png)
