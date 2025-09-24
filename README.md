@@ -1,6 +1,6 @@
 # Parking Violations In The District of Columbia
 
-This project was done in collaboration with two other classmates for a class. 
+This project was done in collaboration with two other classmates, Devon Sellers and Colin Hill, for the course IS425 – Decision Support Systems at UMBC.
 
 ## Business Application
 
