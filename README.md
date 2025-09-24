@@ -13,6 +13,7 @@ This project was done in collaboration with two other classmates, Devon Sellers 
 * Unknown License
 
 ![Kaggle Score](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure1.png)
+Figure 1 - Kaggle file overview
 
 ## Dataset (132,850 rows)
 
@@ -53,12 +54,6 @@ To start, we used a K-clustering algorithm to determine which violation descript
 
 Then, We used a K clustering algorithm to determine which day of the week had the most parking violations associated with it. Finally, we used association rules to determine if the parking violations were consistent throughout the year or if they were influenced by weather, seasons, events, or other various factors.
 
-## Unsupervised Approach:
-
-* Stripping misclassified entries
-  * Removed Null Values
-  * Removed unneeded columns (X coord, Y coord, Week of month, Month of year, Plate (state),X (num), Y (num), body style
-
 ## Algorithm(s) Used
 
 * SUCCESSFUL:
@@ -74,6 +69,14 @@ Then, We used a K clustering algorithm to determine which day of the week had th
 We used K-means clustering that consisted of a maximum of 500 iterations, a maximum of 5 number clusters, and 1 execution slot. For our classifications, we used a batch size of 100, 3 folds, and 1 seed. In our analysis, we kept reduced error pruning to false to get the full picture without cutting out necessary parts of the data set.
 
 ## Results of Analytics
+
+[Figures/img_0.png](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_0.png)
+Figure 2 - Days with the most parking violations
+
+https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_1.png
+
+
+
 With the help of Tableau, we discovered that the top five reasons for parking violations were parking at expired meters, failure to display a multi-space meter receipt, disobeying an official sign, residential permit parking beyond the limit without a permit, and no stopping or standing in PM rush hour zone. As can be seen with Image 1, the first two reasons are 2 considerably higher than the rest and the next two are similar in amount. Furthermore, we found that the top places where tickets were given out the most were 300 Block C Street NW east side, 1300 Block K Street NW north side, 1300 Block G Street NW north side, 1000 block Thomas Jefferson Street NW, and 1300 block H Street NE south side. Upon viewing our results (Image 2), it appears that the 1300 block has three out of the five most ticketed areas of the DC area. Thus, this would be a great section of the city to develop more parking infrastructure. Lastly, we also found that Wednesday, Tuesday, and Thursday were the days where tickets were given out the most, which could be seen in Image 3. It makes sense as people do not go out on Sundays and Saturdays very often. Additionally, people will start going to work on Mondays, so the rise makes sense and fewer people are out on Fridays, so the decrease is also valid.
 
 On the algorithm side we used four clusters. The data we are looking for includes: parking violation reason, violation location, and ticket issue date. All these results come from Image 12. Cluster one had: Fail to display a multispace meter receipt, 1300 Block H ST NE South Side, 2015-12-09. Cluster two had: Park at expired meter, 1000 Block Thomas Jefferson St NW, 2015-12-16. Cluster three had Park at expired meter, 1600 Block P St Nw North Side, 2015- 12-10. Cluster four had disobeyed an official sign, 1400 Block S ST NW North Side, 2015-12-22. Using these clusters, we can cross reference the data acquired on weka with the data we acquired using tableau. In both applications, 1000 block Thomas Jefferson Street NW was in both data sets, so this would be an optimal location to build new parking infrastructure. We also noticed that two out of the four clusters had “park at expired meter” as the reason for the ticket, so with this knowledge, we can predict that parking over the limit of a meter is a common issue in DC. Thus, parking garages could help alleviate this problem, especially on Thomas Jefferson Street.
