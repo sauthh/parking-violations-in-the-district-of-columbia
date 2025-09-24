@@ -70,7 +70,7 @@ We used K-means clustering that consisted of a maximum of 500 iterations, a maxi
 
 ## Results of Analytics
 
-![Days with the most parking violations](https://github.com/sauthh/parking-violations-in-the-district-ofcolumbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_0.png)
+![Days with the most parking violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/a736cc51edcd459c2927bef535c2ca4c3fcb062b/Figures/img_0.png)
 Figure 2 - Days with the most parking violations
 
 We observed that the weekends have the least violations while the middle of the week tends to have the most violations. On the other hand, we observed that Tuesday, Wednesday, and Thursday have the most violations. This is consistent with our expectations, as the majority of the population works during the weekdays, so traffic will be consistently high compared to occasional special events on weekends
