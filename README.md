@@ -13,7 +13,7 @@ This project was done in collaboration with two other classmates, Devon Sellers 
 * Unknown License
 
 ![Kaggle Score](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure1.png)
-[Temp](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_0.png)
+![Temp](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_0.png)
 
 Figure 1 - Kaggle file overview
 
