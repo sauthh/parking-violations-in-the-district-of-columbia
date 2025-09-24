@@ -70,22 +70,45 @@ We used K-means clustering that consisted of a maximum of 500 iterations, a maxi
 
 ## Results of Analytics
 
-![Days with the most parking violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/a736cc51edcd459c2927bef535c2ca4c3fcb062b/Figures/img_0.png)
+![Days with the most parking violations](https://github.com/sauthh/parking-violations-in-the-district-ofcolumbia/blob/5fe20db26da6539fbdb27020e8ea5b52416566ae/Figures/img_0.png)
 Figure 2 - Days with the most parking violations
 
 We observed that the weekends have the least violations while the middle of the week tends to have the most violations. On the other hand, we observed that Tuesday, Wednesday, and Thursday have the most violations. This is consistent with our expectations, as the majority of the population works during the weekdays, so traffic will be consistently high compared to occasional special events on weekends
 
-![Most Violations on Sunday][https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_1.png]
+![Most Violations on Sunday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_1.png)
 Figure 3 - Most Violations on Sunday
 
 This image shows the different violations on Sunday. The biggest reason was disobeying official signs and parking in illegal places. Sunday has the least amount of infrastructure and also differs quite a bit compared to the rest.
 
-![Most][https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_1.png]
-Figure 4 - 
+![Most Violations on Monday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_2.png)
+Figure 4 - Most Violations on Monday
 
 This image shows the different violations on Monday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations.
 
+![Most Violations on Tuesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_3.png)
+Figure 4 - Most Violations on Tuesday
 
+This image shows the different violations on Tuesday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
+
+![Most Violations on Wednesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_4.png)
+Figure 4 - Most Violations on Wednesday
+
+This image shows the different violations on Wednesday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
+
+![Most Violations on Thursday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_5.png)
+Figure 4 - Most Violations on Thursday
+
+This image shows the different violations on Thursday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
+
+![Most Violations on Friday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_6.png)
+Figure 4 - Most Violations on Friday
+
+This image shows the different violations on Friday. Parking at an expired meter, failing to display a multispace meter receipt, and disobeying official signs. The two first violations were similar except the third one, which we can guess that people were likely in a hurry to go home and did not see road signs.
+
+![Most Violations on Saturday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_7.png)
+Figure 4 - Most Violations on Saturday
+
+This image shows the most violations on Saturday. The biggest reasons were parking at expired meters, failing to display a multispace meter receipt and disobeying official signs. Based on the statistics, it seems Saturday had similar outcomes compared to Friday, but slightly less in all fields.
 
 
 
