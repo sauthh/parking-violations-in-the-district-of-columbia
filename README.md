@@ -2,28 +2,6 @@
 
 This project was done in collaboration with two other classmates, Devon Sellers and Colin Hill, for the course IS425 – Decision Support Systems at UMBC.
 
-## Approach
-
-In order to analyze the data, we decided to use a descriptive approach for parking violations using K-clustering and association rules. These methods helped us determine what the most parking violations consisted of and when they took place. Then, we used a predictive approach to figure out which areas of DC were prone to the most traffic violations and where new parking locations should be located.
-
-## Algorithms Used
-To start, we used a K-clustering algorithm to determine which violation descriptions had the most amount of violations associated with them.
-* First, we pre-processed our data by stripping Misclassified entries (outliers).
-* Finally, we applied K clustering to our data and were able to see that our data contained 2 clusters.
-Then, We used a K clustering algorithm to determine which day of the week had the most parking violations associated with it (image 4). Finally, we used association rules to determine if the parking violations were consistent throughout the year or if they were influenced by weather, seasons, events, or other various factors.
-
-## Business Application
-
-* What conclusions can be made regarding the parking violations that occur in DC?
-* Find common parking violation spots in order to improve city parking in the DC area.
-* City planners will use our application to find the best parking garage spots as well as other parking solutions.
-
-## Predictions
-
-* We predicted that weekends would have the most parking violations
-* We predicted that most of the parking violations would occur near the Capital
-* We predicted that most violations would be under “No Parking”
-
 ## Dataset - Parking Violations for District of Columbia
 
 * Parking Violations issued by DC Metropolitan Police Department
@@ -58,6 +36,23 @@ Then, We used a K clustering algorithm to determine which day of the week had th
 * Y (coordinates)
 * LOCATION (text)
 
+## Predictions
+
+* We predicted that weekends would have the most parking violations
+* We predicted that most of the parking violations would occur near the Capital
+* We predicted that most violations would be under “No Parking”
+
+## Approach
+
+In order to analyze the data, we decided to use a descriptive approach for parking violations using K-clustering and association rules. These methods helped us determine what the most parking violations consisted of and when they took place. Then, we used a predictive approach to figure out which areas of DC were prone to the most traffic violations and where new parking locations should be located.
+
+## Algorithms Used
+To start, we used a K-clustering algorithm to determine which violation descriptions had the most amount of violations associated with them.
+* First, we pre-processed our data by stripping Misclassified entries (outliers).
+* Finally, we applied K clustering to our data and were able to see that our data contained 2 clusters.
+
+Then, We used a K clustering algorithm to determine which day of the week had the most parking violations associated with it. Finally, we used association rules to determine if the parking violations were consistent throughout the year or if they were influenced by weather, seasons, events, or other various factors.
+
 ## Unsupervised Approach:
 
 * Stripping misclassified entries
@@ -82,63 +77,6 @@ We used K-means clustering that consisted of a maximum of 500 iterations, a maxi
 With the help of Tableau, we discovered that the top five reasons for parking violations were parking at expired meters, failure to display a multi-space meter receipt, disobeying an official sign, residential permit parking beyond the limit without a permit, and no stopping or standing in PM rush hour zone. As can be seen with Image 1, the first two reasons are 2 considerably higher than the rest and the next two are similar in amount. Furthermore, we found that the top places where tickets were given out the most were 300 Block C Street NW east side, 1300 Block K Street NW north side, 1300 Block G Street NW north side, 1000 block Thomas Jefferson Street NW, and 1300 block H Street NE south side. Upon viewing our results (Image 2), it appears that the 1300 block has three out of the five most ticketed areas of the DC area. Thus, this would be a great section of the city to develop more parking infrastructure. Lastly, we also found that Wednesday, Tuesday, and Thursday were the days where tickets were given out the most, which could be seen in Image 3. It makes sense as people do not go out on Sundays and Saturdays very often. Additionally, people will start going to work on Mondays, so the rise makes sense and fewer people are out on Fridays, so the decrease is also valid.
 
 On the algorithm side we used four clusters. The data we are looking for includes: parking violation reason, violation location, and ticket issue date. All these results come from Image 12. Cluster one had: Fail to display a multispace meter receipt, 1300 Block H ST NE South Side, 2015-12-09. Cluster two had: Park at expired meter, 1000 Block Thomas Jefferson St NW, 2015-12-16. Cluster three had Park at expired meter, 1600 Block P St Nw North Side, 2015- 12-10. Cluster four had disobeyed an official sign, 1400 Block S ST NW North Side, 2015-12-22. Using these clusters, we can cross reference the data acquired on weka with the data we acquired using tableau. In both applications, 1000 block Thomas Jefferson Street NW was in both data sets, so this would be an optimal location to build new parking infrastructure. We also noticed that two out of the four clusters had “park at expired meter” as the reason for the ticket, so with this knowledge, we can predict that parking over the limit of a meter is a common issue in DC. Thus, parking garages could help alleviate this problem, especially on Thomas Jefferson Street.
-
-## K-Clustering Results
-
-![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure2.png)
-![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure3.png)
-
-Days of the Week w/ Location
-![K-Clustering Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure5.png)
-
-## J-48 Result
-
-![J-48 Result](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure4.png)
-
-## Data Visualization: Types of Violations
-
-![Types of Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure6.png)
-
-## Data Visualization: Days with the Most Parking Violations
-
-![Days with the Most Parking Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure7.png)
-
-## Data Visualization: Weekends w/ Locations
-
-* Wednesday <br/>
-![Wednesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure8.png)
-
-* Tuesday <br/>
-![Tuesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure9.png)
-
-* Thursday <br/>
-![Thursday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure10.png)
-
-* Saturday <br/>
-![Saturday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure11.png)
-
-* Sunday <br/>
-![Sunday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure12.png)
-
-
-## Data Visualization: Locations with the Most Violations
-
-![Locations with the Most Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure13.png)
-
-## Data Visualization: Top 3 Most Ticketed Streets
-
-* #1 - 300 Block C ST NW North Side <br/>
-![300 Block C ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure14.png)
-
-* #2 - 1300 Block G ST NW North Side <br/>
-![1300 Block G ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure15.png)
-
-* #3 - 1300 Block K ST NW North Side <br/>
-![1300 Block K ST NW North Side](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/5660a03183bf19a5f363f054f9f0211633d53147/Figures/figure16.png)
-
-## Data Visualization: Top 3 Most Ticketed Streets on Map
-
-![Top 3 Most Ticketed Streets on Map](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/4090bfea4b413c7f6148ed7831e8691b63a726db/Figures/figure17.png)
 
 ## Successes and Failures
 While doing this deliverable, running the dataset through Weka gave us a lot of failures. For example, doing a k-means algorithm consistently gave us very high incorrect cluster occurrences. It meant that we had improper parameters for it and our data was labeled, so it couldn’t cluster them properly. Additionally, We found that given our particular data set we were unable to run association analysis, as the Apriori Associator was not compatible with the data set we are using, and results are not applicable. Specifically, Apriori could not handle the numeric attributes within our data set. However, in terms of success, using Tableau was considerably easier, so we were able to learn basic statistics about our dataset easily. It also helped to organize the data by using different graphs, which made the process faster.
