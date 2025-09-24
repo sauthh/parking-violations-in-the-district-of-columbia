@@ -86,32 +86,58 @@ Figure 4 - Most Violations on Monday
 This image shows the different violations on Monday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations.
 
 ![Most Violations on Tuesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_3.png)
-Figure 4 - Most Violations on Tuesday
+Figure 5 - Most Violations on Tuesday
 
 This image shows the different violations on Tuesday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
 
 ![Most Violations on Wednesday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_4.png)
-Figure 4 - Most Violations on Wednesday
+Figure 6 - Most Violations on Wednesday
 
 This image shows the different violations on Wednesday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
 
 ![Most Violations on Thursday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_5.png)
-Figure 4 - Most Violations on Thursday
+Figure 7 - Most Violations on Thursday
 
 This image shows the different violations on Thursday. Parking at an expired meter, failing to display a multispace meter receipt, and residential permit parking beyond limit without permit were the biggest reasons. This is similar to other days, where people committed similar violations. 
 
 ![Most Violations on Friday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_6.png)
-Figure 4 - Most Violations on Friday
+Figure 8 - Most Violations on Friday
 
 This image shows the different violations on Friday. Parking at an expired meter, failing to display a multispace meter receipt, and disobeying official signs. The two first violations were similar except the third one, which we can guess that people were likely in a hurry to go home and did not see road signs.
 
 ![Most Violations on Saturday](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_7.png)
-Figure 4 - Most Violations on Saturday
+Figure 9 - Most Violations on Saturday
 
 This image shows the most violations on Saturday. The biggest reasons were parking at expired meters, failing to display a multispace meter receipt and disobeying official signs. Based on the statistics, it seems Saturday had similar outcomes compared to Friday, but slightly less in all fields.
 
+![Locations with the Most Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_8.png)
+Figure 10 - Locations with the Most Violations
 
+“300 Block C ST NW North Side” has vastly more compared to others. A simple Google search shows that it is located right next to E. Barrett Prettyman United States Courthouse, and while the irony of receiving a ticket parking violation at a courthouse is not lost on us, it does provide us with a potential location that may warrant a recommendation for additional parking facilities. “1300 Block K ST NW North Side” is located near a public park and “1300 Block G ST NW North Side” is located near a Metro Station. For both instances, we have high-traffic areas where the public may need additional parking services to accommodate the amount of individuals using them.
 
+![Most Violations at “300 Block C ST NW North Side”](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_9.png)
+Figure 10 - Most Violations at “300 Block C ST NW North Side”
+
+Figure 10 shows why people were ticketed so often near the courthouse. The biggest reason was “Unauthorized Vehicle in Loading Zone” because people, most likely, drove to the courthouse to quickly pick up someone but ended up being ticketed instead. Additionally, the previous explanation also holds true for the next highest reason, which is“Park in Reserved Space for Motorcycles Only.”
+
+![Most Violations at “300 Block C ST NW North Side”](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_10.png)
+Figure 10 - Most Violations at “1300 Block K ST NW North Side”
+
+The image above shows why people were fined near Franklin Park. The biggest reason out of everything was parking overtime at the meter, which makes sense because people probably intended to park for a couple of hours but ended up parking overtime as they could have been too busy at the park or at the “Paul” restaurant. This reason consisted of double the amount of the second highest reason, which was failure to display at a multi-space meter receipt. The last notable reason was that the expiration time on a meter receipt had expired.  
+
+![Most Violations at “1300 Block G ST NW North Side”](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_10.png)
+Figure 10 - Most Violations at “1300 Block G ST NW North Side”
+
+The image above shows why people were fined near the metro station. The two biggest reasons were failing to display a multi-space meter receipt and unauthorized vehicles in the loading zone. Since the street is near multiple stores and a metro station, we can guess that people were in a hurry and simply forgot to put their receipts in the front. Additionally, people might have thought to pick up friends/family members quickly, so they most likely stopped at a loading zone without thinking much.
+
+![Types of Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_10.png)
+Figure 10 - Types of Violations
+
+The image above shows the biggest reasons for parking violations. The biggest reason we observed was parking at an expired meter with around 18k tickets issued. The second biggest reason was failing to display a multi-space meter receipt at around 15k tickets issued. The third biggest reason was disobeying an official sign at around 10k tickets issued. Finally, the fourth biggest reason was parking at a residential parking permit spot beyond the limit without a permit. These trends help solidify our observation that most of the time, people just tend to forget whether it be putting up their receipt or remembering how long they put the parking meter for.
+
+## Decision Question
+The graphs helped answer some of our burning questions such as “What was the biggest reason for parking violations?”, “Where were people being fined the most”, “In the places where people were fined, what was the violation and why?”, “What time of the week were people most likely to be fine”, etc. 
+All of these questions were answered using solely the data portion of our project, not any weka results were included. Thus, we weren't able to use any of the Weka applications benefits such as association rules and decision algorithms.  Using these, we could have found more unknown correlations and patterns to help make the best decisions for parking in the DC area. 
 
 
 
