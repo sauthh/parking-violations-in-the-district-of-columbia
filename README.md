@@ -155,15 +155,15 @@ Figure 15 - Types of Violations
 
 The biggest reason we observed was parking at an expired meter with around 18k tickets issued. The second biggest reason was failing to display a multi-space meter receipt at around 15k tickets issued. The third biggest reason was disobeying an official sign at around 10k tickets issued. Finally, the fourth biggest reason was parking at a residential parking permit spot beyond the limit without a permit. These trends help solidify our observation that most of the time, people just tend to forget whether it be putting up their receipt or remembering how long they put the parking meter for.
 
-## Decision Question
-The graphs helped answer some of our burning questions such as “What was the biggest reason for parking violations?”, “Where were people being fined the most”, “In the places where people were fined, what was the violation and why?”, “What time of the week were people most likely to be fine”, etc. 
-
-All of these questions were answered using solely the data portion of our project, not any weka results were included. Thus, we weren't able to use any of the Weka applications benefits such as association rules and decision algorithms.  Using these, we could have found more unknown correlations and patterns to help make the best decisions for parking in the DC area. 
-
 ## Successes and Failures
 While doing this deliverable, running the dataset through Weka gave us a lot of failures. For example, doing a k-means algorithm consistently gave us very high incorrect cluster occurrences. It meant that we had improper parameters for it and our data was labeled, so it couldn’t cluster them properly. Additionally, We found that given our particular data set we were unable to run association analysis, as the Apriori Associator was not compatible with the data set we are using, and results are not applicable. Specifically, Apriori could not handle the numeric attributes within our data set. However, in terms of success, using Tableau was considerably easier, so we were able to learn basic statistics about our dataset easily. It also helped to organize the data by using different graphs, which made the process faster.
 
 When using K clustering, we noticed that a k value of 4 was the most consistent in terms of getting reliable data. Anything higher would result in a higher incorrect accuracy. Anything less would also give us a less accurate model of our data.
+
+## Decision Question
+The graphs helped answer some of our burning questions such as “What was the biggest reason for parking violations?”, “Where were people being fined the most”, “In the places where people were fined, what was the violation and why?”, “What time of the week were people most likely to be fine”, etc. 
+
+All of these questions were answered using solely the data portion of our project, not any weka results were included. Thus, we weren't able to use any of the Weka applications benefits such as association rules and decision algorithms.  Using these, we could have found more unknown correlations and patterns to help make the best decisions for parking in the DC area. 
 
 ## Conclusion
 
