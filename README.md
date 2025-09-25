@@ -147,13 +147,13 @@ Figure 14 - Most Violations at “1300 Block K ST NW North Side”
 
 The biggest reason out of everything was parking overtime at the meter, which makes sense because people probably intended to park for a couple of hours but ended up parking overtime as they could have been too busy at the park or at the “Paul” restaurant. This reason consisted of double the amount of the second highest reason, which was failure to display at a multi-space meter receipt. The last notable reason was that the expiration time on a meter receipt had expired.  
 
-![Most Violations at “1300 Block G ST NW North Side”](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_10.png)
+![Most Violations at “1300 Block G ST NW North Side”](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_11.png)
 
 Figure 15 - Most Violations at “1300 Block G ST NW North Side”
 
 The two biggest reasons were failing to display a multi-space meter receipt and unauthorized vehicles in the loading zone. Since the street is near multiple stores and a metro station, we can guess that people were in a hurry and simply forgot to put their receipts in the front. Additionally, people might have thought to pick up friends/family members quickly, so they most likely stopped at a loading zone without thinking much.
 
-![Types of Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_10.png)
+![Types of Violations](https://github.com/sauthh/parking-violations-in-the-district-of-columbia/blob/da941d6d2b8127c810ad4f49df326e5f4855d622/Figures/img_12.png)
 
 Figure 15 - Types of Violations
 
